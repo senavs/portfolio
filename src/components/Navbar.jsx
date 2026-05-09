@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container navbar-inner">
-        <NavLink to="/" className="navbar-logo">matheus sena.</NavLink>
+        <NavLink to="/" className="navbar-logo">Matheus Sena.</NavLink>
         <button className="navbar-burger" onClick={() => setOpen(o => !o)} aria-label="Toggle menu">
           <span /><span /><span />
         </button>
