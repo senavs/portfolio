@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Backend",
+    "items": ["Java", "Python", "Go", "Node.js", "Spring Boot", "REST / GraphQL"]
+  },
+  {
+    "category": "Frontend",
+    "items": ["React", "TypeScript", "Next.js", "CSS / Tailwind", "Vite"]
+  },
+  {
+    "category": "DevOps & Cloud",
+    "items": ["AWS", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "PostgreSQL"]
+  },
+  {
+    "category": "Soft Skills",
+    "items": ["System Design", "Technical Leadership", "Code Review", "Mentoring", "Agile / Scrum"]
+  }
+]

@@ -1,0 +1,19 @@
+.history-section { padding: var(--section-pad); }
+
+.history-body {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.history-body p {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  line-height: 1.8;
+}
+
+.history-body strong {
+  color: var(--color-text);
+  font-weight: 500;
+}

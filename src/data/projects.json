@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "TaskFlow",
+    "description": "Task management system with drag-and-drop, real-time collaboration, and responsive layout.",
+    "tags": ["React", "Node.js", "WebSocket"],
+    "liveUrl": "#"
+  },
+  {
+    "id": 2,
+    "title": "DataPulse",
+    "description": "Real-time analytics dashboard for monitoring distributed system metrics and alerting.",
+    "tags": ["TypeScript", "Go", "PostgreSQL"],
+    "liveUrl": "#"
+  },
+  {
+    "id": 3,
+    "title": "ShipKit",
+    "description": "CLI toolkit for automating microservice scaffolding, CI/CD pipelines, and cloud deployments.",
+    "tags": ["Python", "Docker", "AWS"],
+    "liveUrl": "#"
+  },
+  {
+    "id": 4,
+    "title": "Vaultex",
+    "description": "Secure secrets management API with role-based access control and audit logging.",
+    "tags": ["Java", "Spring Boot", "Redis"],
+    "liveUrl": "#"
+  }
+]

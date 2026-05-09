@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "company": "Acme Corp",
+    "role": "Senior Software Engineer @ Acme Corp",
+    "period": "Jan 2023 – Present",
+    "bullets": [
+      "Designed and shipped a distributed event-driven platform processing 50M+ events/day.",
+      "Led migration of legacy monolith to microservices, reducing deployment time by 70%.",
+      "Mentored a team of 4 engineers and established code review standards."
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Globex",
+    "role": "Software Engineer @ Globex",
+    "period": "Mar 2021 – Dec 2022",
+    "bullets": [
+      "Built RESTful APIs serving 2M+ daily active users with 99.9% uptime SLA.",
+      "Implemented real-time notification system using WebSockets and Redis pub/sub.",
+      "Reduced database query latency by 40% through indexing and query optimization."
+    ]
+  },
+  {
+    "id": 3,
+    "company": "Initech",
+    "role": "Junior Software Engineer @ Initech",
+    "period": "Jun 2019 – Feb 2021",
+    "bullets": [
+      "Developed internal tooling that automated manual reporting, saving 10h/week.",
+      "Contributed to open-source libraries used across the engineering organization.",
+      "Collaborated with product and design teams to ship 3 major product features."
+    ]
+  },
+  {
+    "id": 4,
+    "company": "Freelance",
+    "role": "Freelance Developer",
+    "period": "2017 – 2019",
+    "bullets": [
+      "Delivered 15+ web applications for clients across e-commerce, fintech, and media.",
+      "Managed full project lifecycle from requirements gathering to production deployment.",
+      "Built a reusable component library adopted by 3 long-term clients."
+    ]
+  }
+]
