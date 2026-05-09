@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
         <div className="hero-avatar">
           <div className="hero-avatar-ring">
-            <img src="/portfolio/avatar.svg" alt="Matheus Sena" />
+            <img src="/portfolio/avatar.jpg" alt="Matheus Sena" />
           </div>
         </div>
       </div>

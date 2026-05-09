@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700&f[]=satoshi@400,500&display=swap');
 
 :root {
   --color-bg: #ffffff;
@@ -7,8 +7,8 @@
   --color-muted: #6b6b6b;
   --color-accent: #1a1a1a;
   --color-border: #e0e0e0;
-  --font-display: 'Syne', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
+  --font-display: 'Cabinet Grotesk', sans-serif;
+  --font-body: 'Satoshi', sans-serif;
   --max-width: 1100px;
   --section-pad: 80px 0;
 }
