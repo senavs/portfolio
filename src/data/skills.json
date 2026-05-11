@@ -1,18 +1,22 @@
 [
   {
-    "category": "Backend",
-    "items": ["Java", "Python", "Go", "Node.js", "Spring Boot", "REST / GraphQL"]
+    "category": "Languages",
+    "items": ["Python", "Java", "C++", "Go", "SQL"]
   },
   {
-    "category": "Frontend",
-    "items": ["React", "TypeScript", "Next.js", "CSS / Tailwind", "Vite"]
+    "category": "Backend & Frameworks",
+    "items": ["Flask", "FastAPI", "SQLAlchemy", "REST APIs", "Microservices", "RabbitMQ", "Celery", "Redis"]
   },
   {
-    "category": "DevOps & Cloud",
-    "items": ["AWS", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "PostgreSQL"]
+    "category": "AI & Data",
+    "items": ["Scikit-learn", "TensorFlow", "Keras", "NLTK", "OpenCV", "Numpy", "Pandas", "Matplotlib"]
   },
   {
-    "category": "Soft Skills",
-    "items": ["System Design", "Technical Leadership", "Code Review", "Mentoring", "Agile / Scrum"]
+    "category": "Cloud & DevOps",
+    "items": ["AWS", "GCP", "Docker", "Kubernetes", "Jenkins", "System Design"]
+  },
+  {
+    "category": "Observability & Databases",
+    "items": ["Elastic Stack", "Grafana", "Datadog", "Splunk", "Dynatrace", "PostgreSQL", "MySQL", "MongoDB"]
   }
 ]
