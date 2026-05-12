@@ -1,4 +1,11 @@
 {
+  "about": {
+    "heading": "About me",
+    "bio": "I'm a backend software engineer passionate about building scalable systems and intelligent solutions. With experience across cloud architecture, AI pipelines, and distributed systems, I design software that automates processes, reduces costs, and delivers measurable value. Currently at Amazon, working globally.",
+    "stackTitle": "My Stack",
+    "mapTitle": "My Special Place",
+    "experienceTitle": "My Experience"
+  },
   "nav": {
     "home": "Home",
     "projects": "Projects",
