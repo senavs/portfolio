@@ -1,4 +1,4 @@
-.map-section { padding: var(--section-pad); }
+.map-block .section-title { margin-bottom: 24px; }
 
 .map-card {
   border-radius: 12px;

@@ -26,13 +26,9 @@ export default function About() {
       </section>
 
       <RevealSection>
-        <div className="about-stack-map container">
-          <div className="about-stack-col">
-            <SkillCarousel />
-          </div>
-          <div className="about-map-col">
-            <MapSection />
-          </div>
+        <div className="about-stack-map">
+          <SkillCarousel />
+          <MapSection />
         </div>
       </RevealSection>
 
