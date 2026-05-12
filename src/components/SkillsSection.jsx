@@ -1,13 +1,14 @@
-import skills from '../data/skills.json'
+import { useLang } from '../context/LangContext'
 import './SkillsSection.css'
 
 export default function SkillsSection() {
+  const { t } = useLang()
   return (
     <section className="skills-section">
       <div className="container">
-        <h2 className="section-title">Skills<span>.</span></h2>
+        <h2 className="section-title">{t.sections.skills}<span>.</span></h2>
         <div className="skills-grid">
-          {skills.map(({ category, items }) => (
+          {t.skills.map(({ category, items }) => (
             <div key={category} className="skills-col">
               <h3>{category}</h3>
               <ul>

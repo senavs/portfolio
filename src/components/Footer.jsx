@@ -1,12 +1,6 @@
 import { Link } from 'react-router-dom'
+import { useLang } from '../context/LangContext'
 import './Footer.css'
-
-const navLinks = [
-  { to: '/', label: 'Home' },
-  { to: '/projects', label: 'Projects' },
-  { to: '/about', label: 'About' },
-  { to: '/contact', label: 'Contact' },
-]
 
 function IconGitHub() {
   return (
@@ -25,6 +19,13 @@ function IconLinkedIn() {
 }
 
 export default function Footer() {
+  const { t } = useLang()
+  const navLinks = [
+    { to: '/', label: t.nav.home },
+    { to: '/projects', label: t.nav.projects },
+    { to: '/about', label: t.nav.about },
+    { to: '/contact', label: t.nav.contact },
+  ]
   return (
     <footer className="footer">
       <div className="container">
@@ -35,19 +36,19 @@ export default function Footer() {
             ))}
           </nav>
           <div className="footer-socials">
-            <a href="#" aria-label="GitHub"><IconGitHub /></a>
-            <a href="#" aria-label="LinkedIn"><IconLinkedIn /></a>
+            <a href="https://github.com/senavs" aria-label="GitHub"><IconGitHub /></a>
+            <a href="https://www.linkedin.com/in/senavs" aria-label="LinkedIn"><IconLinkedIn /></a>
           </div>
         </div>
         <div className="footer-bottom">
           <div className="footer-cta">
-            <p>Interested in working together?</p>
+            <p>{t.footer.cta}</p>
             <div className="footer-cta-btns">
-              <Link to="/contact" className="btn btn-primary">Get In Touch</Link>
-              <Link to="/projects" className="btn btn-outline">Browse Projects</Link>
+              <Link to="/contact" className="btn btn-primary">{t.footer.ctaPrimary}</Link>
+              <Link to="/projects" className="btn btn-outline">{t.footer.ctaOutline}</Link>
             </div>
           </div>
-          <p className="footer-copy">©2025 All Rights Reserved.</p>
+          <p className="footer-copy">{t.footer.copy}</p>
         </div>
       </div>
     </footer>

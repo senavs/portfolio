@@ -1,16 +1,18 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { useLang } from '../context/LangContext'
 import './Navbar.css'
-
-const links = [
-  { to: '/', label: 'Home' },
-  { to: '/projects', label: 'Projects' },
-  { to: '/about', label: 'About' },
-  { to: '/contact', label: 'Contact' },
-]
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const { lang, toggle, t } = useLang()
+
+  const links = [
+    { to: '/', label: t.nav.home },
+    { to: '/projects', label: t.nav.projects },
+    { to: '/about', label: t.nav.about },
+    { to: '/contact', label: t.nav.contact },
+  ]
 
   return (
     <nav className="navbar">
@@ -33,6 +35,9 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+        <button className="navbar-lang" onClick={toggle} aria-label="Toggle language">
+          {lang === 'en' ? '🇧🇷' : '🇺🇸'}
+        </button>
       </div>
     </nav>
   )

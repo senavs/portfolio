@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "home": "Início",
+    "projects": "Projetos",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou o Matheus 👋",
+    "heading": "Engenheiro de\nDesenvolvimento\nde Software",
+    "tagline": "Construo sistemas robustos e escaláveis com interfaces limpas.\nBaseado no Brasil, atuando globalmente.",
+    "ctaPrimary": "Entre em Contato",
+    "ctaOutline": "Ver Projetos"
+  },
+  "sections": {
+    "projects": "Projetos Públicos",
+    "experience": "Experiência",
+    "skills": "Habilidades",
+    "history": "Minha História"
+  },
+  "history": [
+    "Minha jornada começou em 2018 como estagiário no <strong>INEP</strong>, agência federal de pesquisa educacional do Brasil, onde automatizei fluxos de trabalho diários de estatísticos e construí pipelines de dados para o Censo da Educação Superior.",
+    "De lá, ingressei na <strong>Stefanini Brasil</strong>, onde passei quase dois anos arquitetando soluções de IA e Machine Learning para o <strong>Banco do Brasil</strong> - construindo sistemas de classificação de documentos, plataformas de curadoria de dados e crawlers que reduziram custos operacionais e tempo de espera para milhões de clientes.",
+    "Em seguida, fui para a <strong>Serasa</strong>, onde projetei a Arquitetura do Sistema de Pagamentos do Serasa Limpa Nome, entregando consistência e segurança à maior plataforma de renegociação de dívidas do Brasil.",
+    "Em 2022 entrei no time de Tecnologia Internacional da <strong>Amazon</strong>, trabalhando na expansão do Amazon Marketplace e do Amazon Flex para novos países. Fui promovido a <strong>SDE II</strong> em 2024 e continuo projetando e entregando sistemas backend escaláveis que alcançam clientes no mundo todo.",
+    "Paralelamente à Amazon, também trabalhei na <strong>Verbal</strong>, uma startup de IA para saúde, onde construí infraestrutura cloud-native no Kubernetes, pipelines de IA em Python e um sistema de ingestão de áudio em tempo real em C++ ajudando a automatizar o controle de qualidade em comunicações de saúde. 🚀"
+  ],
+  "footer": {
+    "cta": "Interessado em trabalhar juntos?",
+    "ctaPrimary": "Entre em Contato",
+    "ctaOutline": "Ver Projetos",
+    "copy": "©2025 Todos os direitos reservados."
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "TaskFlow",
+      "description": "Sistema de gerenciamento de tarefas com arrastar e soltar, colaboração em tempo real e layout responsivo.",
+      "tags": ["React", "Node.js", "WebSocket"],
+      "liveUrl": "#"
+    },
+    {
+      "id": 2,
+      "title": "DataPulse",
+      "description": "Dashboard de analytics em tempo real para monitoramento de métricas de sistemas distribuídos e alertas.",
+      "tags": ["TypeScript", "Go", "PostgreSQL"],
+      "liveUrl": "#"
+    },
+    {
+      "id": 3,
+      "title": "ShipKit",
+      "description": "Toolkit de CLI para automatizar scaffolding de microsserviços, pipelines de CI/CD e deploys em nuvem.",
+      "tags": ["Python", "Docker", "AWS"],
+      "liveUrl": "#"
+    },
+    {
+      "id": 4,
+      "title": "Vaultex",
+      "description": "API de gerenciamento seguro de segredos com controle de acesso baseado em papéis e auditoria de logs.",
+      "tags": ["Java", "Spring Boot", "Redis"],
+      "liveUrl": "#"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "Amazon",
+      "role": "Engenheiro de Desenvolvimento de Software",
+      "period": "Fev 2022 – Presente",
+      "bullets": [
+        "Promovido a SDE II em julho de 2024 após 2,5 anos como SDE I.",
+        "Parte do time de Tecnologia Internacional responsável por expandir a Amazon para novos marketplaces e lançar novos produtos.",
+        "Liderou e contribuiu para a expansão do Amazon Marketplace e Amazon Flex para novos países.",
+        "Projetou e implementou serviços backend escaláveis usando Java, Python e AWS."
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Verbal",
+      "role": "Engenheiro de Desenvolvimento de Software",
+      "period": "Nov 2024 – Nov 2025",
+      "bullets": [
+        "Projetou, construiu e manteve sistemas e infraestrutura cloud-native escaláveis para uma plataforma de saúde baseada em IA.",
+        "Desenvolveu e manteve arquitetura baseada em Kubernetes para suportar cargas de trabalho de IA distribuídas.",
+        "Construiu sistemas backend em Python para processamento de dados e integração com pipelines de IA.",
+        "Projetou e implementou um Zoom Bot em C++ capaz de extrair streams de áudio em tempo real para análise conversacional.",
+        "Arquitetou um sistema escalável de orquestração de bots para suportar múltiplas sessões simultâneas de processamento de áudio."
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Serasa",
+      "role": "Engenheiro de Desenvolvimento de Software",
+      "period": "Mai 2021 – Fev 2022",
+      "bullets": [
+        "Desenvolveu e manteve o sistema de renegociação de dívidas do Serasa Limpa Nome, atendendo milhões de consumidores brasileiros.",
+        "Projetou e construiu a Arquitetura do Sistema de Pagamentos do Serasa Limpa Nome, entregando consistência e segurança.",
+        "Trabalhou em toda a stack backend usando Python, Go, Flask, FastAPI e SQLAlchemy.",
+        "Gerenciou infraestrutura com Docker, Kubernetes, Jenkins e ferramentas de observabilidade (Elastic Stack, Splunk, Dynatrace, Grafana)."
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Stefanini Brasil",
+      "role": "Engenheiro de Desenvolvimento de Software e Machine Learning",
+      "period": "Ago 2019 – Mai 2021",
+      "bullets": [
+        "Arquitetou e desenvolveu microsserviços backend e soluções automatizadas com IA para o Banco do Brasil.",
+        "Construiu um sistema backend completo para classificação de documentos brasileiros (Alvarás, Guias, Certidões) e extração de dados com IA, reduzindo tempo de espera e custos operacionais.",
+        "Desenvolveu uma plataforma de curadoria de dados para treinar modelos de ML, centralizando dados e gerando metadados a partir de modelos anteriores.",
+        "Construiu um sistema educacional full-stack online com IA para melhorar o aprendizado e a interação dos alunos.",
+        "Desenvolveu crawlers para extração de dados em tempo real de sites públicos para construir datasets de treinamento de modelos de IA.",
+        "Integrou e automatizou fluxos de desenvolvimento de software e infraestrutura de TI (DevOps)."
+      ]
+    },
+    {
+      "id": 5,
+      "company": "INEP",
+      "role": "Estagiário de Engenharia de Software",
+      "period": "Jul 2018 – Ago 2019",
+      "bullets": [
+        "Validou, inspecionou e implementou casos de uso na agência federal de pesquisa educacional do Brasil.",
+        "Construiu programas que automatizaram atividades diárias de estatísticos por meio de consultas em bancos de dados, gerando gráficos e relatórios do Censo.",
+        "Desenvolveu uma aplicação que envia e-mails automatizados para distribuir certificados do curso de treinamento do Censo da Educação Superior.",
+        "Construiu pipelines de geração automática de gráficos a partir do banco de dados do Censo, publicados anualmente para reportar a qualidade da educação superior no Brasil.",
+        "Desenvolveu crawlers e aplicações com interface gráfica (GUI) para apoiar fluxos de coleta e reporte de dados."
+      ]
+    }
+  ],
+  "skills": [
+    { "category": "Linguagens", "items": ["Python", "Java", "C++", "Go", "SQL"] },
+    { "category": "Backend & Frameworks", "items": ["Flask", "FastAPI", "SQLAlchemy", "REST APIs", "Microsserviços", "RabbitMQ", "Celery", "Redis"] },
+    { "category": "IA & Dados", "items": ["Scikit-learn", "TensorFlow", "Keras", "NLTK", "OpenCV", "Numpy", "Pandas", "Matplotlib"] },
+    { "category": "Cloud & DevOps", "items": ["AWS", "GCP", "Docker", "Kubernetes", "Jenkins", "Design de Sistemas"] },
+    { "category": "Observabilidade & Bancos", "items": ["Elastic Stack", "Grafana", "Datadog", "Splunk", "Dynatrace", "PostgreSQL", "MySQL", "MongoDB"] }
+  ]
+}
