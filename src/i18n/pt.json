@@ -8,7 +8,7 @@
   "hero": {
     "greeting": "Olá, eu sou o Matheus 👋",
     "heading": "Engenheiro de\nDesenvolvimento\nde Software",
-    "tagline": "Construo sistemas robustos e escaláveis com interfaces limpas.\nBaseado no Brasil, atuando globalmente.",
+    "tagline": "Construo sistemas robustos e escaláveis com interfaces limpas. Brasileiro, atuando globalmente.",
     "ctaPrimary": "Entre em Contato",
     "ctaOutline": "Ver Projetos"
   },
@@ -80,11 +80,11 @@
       "role": "Engenheiro de Desenvolvimento de Software",
       "period": "Nov 2024 – Nov 2025",
       "bullets": [
-        "Projetou, construiu e manteve sistemas e infraestrutura cloud-native escaláveis para uma plataforma de saúde baseada em IA.",
-        "Desenvolveu e manteve arquitetura baseada em Kubernetes para suportar cargas de trabalho de IA distribuídas.",
-        "Construiu sistemas backend em Python para processamento de dados e integração com pipelines de IA.",
-        "Projetou e implementou um Zoom Bot em C++ capaz de extrair streams de áudio em tempo real para análise conversacional.",
-        "Arquitetou um sistema escalável de orquestração de bots para suportar múltiplas sessões simultâneas de processamento de áudio."
+        "Projetei, construí e mantive sistemas e infraestrutura cloud-native escaláveis para uma plataforma de saúde baseada em IA.",
+        "Desenvolvi e mantive arquitetura baseada em Kubernetes para suportar cargas de trabalho de IA distribuídas.",
+        "Construí sistemas backend em Python para processamento de dados e integração com pipelines de IA.",
+        "Projetei e implementei um Zoom Bot em C++ capaz de extrair streams de áudio em tempo real para análise conversacional.",
+        "Arquitetei um sistema escalável de orquestração de bots para suportar múltiplas sessões simultâneas de processamento de áudio."
       ]
     },
     {
@@ -93,10 +93,10 @@
       "role": "Engenheiro de Desenvolvimento de Software",
       "period": "Mai 2021 – Fev 2022",
       "bullets": [
-        "Desenvolveu e manteve o sistema de renegociação de dívidas do Serasa Limpa Nome, atendendo milhões de consumidores brasileiros.",
-        "Projetou e construiu a Arquitetura do Sistema de Pagamentos do Serasa Limpa Nome, entregando consistência e segurança.",
-        "Trabalhou em toda a stack backend usando Python, Go, Flask, FastAPI e SQLAlchemy.",
-        "Gerenciou infraestrutura com Docker, Kubernetes, Jenkins e ferramentas de observabilidade (Elastic Stack, Splunk, Dynatrace, Grafana)."
+        "Desenvolvi e mantive o sistema de renegociação de dívidas do Serasa Limpa Nome, atendendo milhões de consumidores brasileiros.",
+        "Projetei e construí a Arquitetura do Sistema de Pagamentos do Serasa Limpa Nome, entregando consistência e segurança.",
+        "Trabalhei em toda a stack backend usando Python, Go, Flask, FastAPI e SQLAlchemy.",
+        "Gerenciei infraestrutura com Docker, Kubernetes, Jenkins e ferramentas de observabilidade (Elastic Stack, Splunk, Dynatrace, Grafana)."
       ]
     },
     {
@@ -105,12 +105,12 @@
       "role": "Engenheiro de Desenvolvimento de Software e Machine Learning",
       "period": "Ago 2019 – Mai 2021",
       "bullets": [
-        "Arquitetou e desenvolveu microsserviços backend e soluções automatizadas com IA para o Banco do Brasil.",
-        "Construiu um sistema backend completo para classificação de documentos brasileiros (Alvarás, Guias, Certidões) e extração de dados com IA, reduzindo tempo de espera e custos operacionais.",
-        "Desenvolveu uma plataforma de curadoria de dados para treinar modelos de ML, centralizando dados e gerando metadados a partir de modelos anteriores.",
-        "Construiu um sistema educacional full-stack online com IA para melhorar o aprendizado e a interação dos alunos.",
-        "Desenvolveu crawlers para extração de dados em tempo real de sites públicos para construir datasets de treinamento de modelos de IA.",
-        "Integrou e automatizou fluxos de desenvolvimento de software e infraestrutura de TI (DevOps)."
+        "Arquitetei e desenvolvi microsserviços backend e soluções automatizadas com IA para o Banco do Brasil.",
+        "Construí um sistema backend completo para classificação de documentos brasileiros (Alvarás, Guias, Certidões) e extração de dados com IA, reduzindo tempo de espera e custos operacionais.",
+        "Desenvolvi uma plataforma de curadoria de dados para treinar modelos de ML, centralizando dados e gerando metadados a partir de modelos anteriores.",
+        "Construí um sistema educacional full-stack online com IA para melhorar o aprendizado e a interação dos alunos.",
+        "Desenvolvi crawlers para extração de dados em tempo real de sites públicos para construir datasets de treinamento de modelos de IA.",
+        "Integrei e automatizei fluxos de desenvolvimento de software e infraestrutura de TI (DevOps)."
       ]
     },
     {
@@ -119,19 +119,19 @@
       "role": "Estagiário de Engenharia de Software",
       "period": "Jul 2018 – Ago 2019",
       "bullets": [
-        "Validou, inspecionou e implementou casos de uso na agência federal de pesquisa educacional do Brasil.",
-        "Construiu programas que automatizaram atividades diárias de estatísticos por meio de consultas em bancos de dados, gerando gráficos e relatórios do Censo.",
-        "Desenvolveu uma aplicação que envia e-mails automatizados para distribuir certificados do curso de treinamento do Censo da Educação Superior.",
-        "Construiu pipelines de geração automática de gráficos a partir do banco de dados do Censo, publicados anualmente para reportar a qualidade da educação superior no Brasil.",
-        "Desenvolveu crawlers e aplicações com interface gráfica (GUI) para apoiar fluxos de coleta e reporte de dados."
+        "Validei, inspecionei e implementei casos de uso na agência federal de pesquisa educacional do Brasil.",
+        "Construí programas que automatizaram atividades diárias de estatísticos por meio de consultas em bancos de dados, gerando gráficos e relatórios do Censo.",
+        "Desenvolvi uma aplicação que envia e-mails automatizados para distribuir certificados do curso de treinamento do Censo da Educação Superior.",
+        "Construí pipelines de geração automática de gráficos a partir do banco de dados do Censo, publicados anualmente para reportar a qualidade da educação superior no Brasil.",
+        "Desenvolvi crawlers e aplicações com interface gráfica (GUI) para apoiar fluxos de coleta e reporte de dados."
       ]
     }
   ],
   "skills": [
     { "category": "Linguagens", "items": ["Python", "Java", "C++", "Go", "SQL"] },
-    { "category": "Backend & Frameworks", "items": ["Flask", "FastAPI", "SQLAlchemy", "REST APIs", "Microsserviços", "RabbitMQ", "Celery", "Redis"] },
-    { "category": "IA & Dados", "items": ["Scikit-learn", "TensorFlow", "Keras", "NLTK", "OpenCV", "Numpy", "Pandas", "Matplotlib"] },
+    { "category": "Backend & Frameworks", "items": ["Flask", "FastAPI", "SQLAlchemy", "Spring Boot", "RabbitMQ", "Celery", "Redis"] },
+    { "category": "IA & Dados", "items": ["Scikit-learn", "TensorFlow", "Keras", "NLTK", "OpenCV", "Numpy", "Pandas", "Matplotlib", "--", "Claude Code", "Kiro"] },
     { "category": "Cloud & DevOps", "items": ["AWS", "GCP", "Docker", "Kubernetes", "Jenkins", "Design de Sistemas"] },
-    { "category": "Observabilidade & Bancos", "items": ["Elastic Stack", "Grafana", "Datadog", "Splunk", "Dynatrace", "PostgreSQL", "MySQL", "MongoDB"] }
+    { "category": "Observabilidade & Bancos de Dados", "items": ["Elastic Stack", "Grafana", "Datadog", "Splunk", "Dynatrace", "PostgreSQL", "MySQL", "MongoDB"] }
   ]
 }
