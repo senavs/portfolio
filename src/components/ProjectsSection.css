@@ -1,11 +1,22 @@
 .projects-section { padding: var(--section-pad); }
 
-.projects-grid {
+.projects-row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 32px;
+  margin-bottom: 40px;
 }
 
+/* Row 1: first card wider */
+.projects-row--1 { grid-template-columns: 58fr 42fr; }
+
+/* Row 2: second card wider */
+.projects-row--2 { grid-template-columns: 42fr 58fr; }
+
+.projects-row--1 .project-card-image { height: 240px; }
+.projects-row--2 .project-card-image { height: 300px; }
+
 @media (max-width: 640px) {
-  .projects-grid { grid-template-columns: 1fr; }
+  .projects-row--1,
+  .projects-row--2 { grid-template-columns: 1fr; }
+  .project-card-image { height: 220px !important; }
 }
