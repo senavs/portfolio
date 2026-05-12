@@ -1,10 +1,10 @@
 import './ProjectCard.css'
 
-export default function ProjectCard({ title, description, tags, liveUrl }) {
+export default function ProjectCard({ title, description, tags, liveUrl, imageUrl }) {
   return (
     <article className="project-card">
       <div className="project-card-image">
-        <div className="project-card-arc" />
+        {imageUrl ? <img src={imageUrl} alt={title} /> : <div className="project-card-arc" />}
       </div>
       <div className="project-card-body">
         <h3>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" style="background:#1a1a1a">
+  <rect x="60" y="60" width="280" height="80" rx="6" fill="#2d2d2d" stroke="#444" stroke-width="2"/>
+  <text x="200" y="115" text-anchor="middle" fill="#e0e0e0" font-size="36" font-family="monospace" letter-spacing="8" transform="rotate(-3,200,100)">X4mP9</text>
+  <line x1="60" y1="75" x2="340" y2="130" stroke="#6b6b6b" stroke-width="1" opacity="0.5"/>
+  <line x1="60" y1="120" x2="340" y2="80" stroke="#6b6b6b" stroke-width="1" opacity="0.5"/>
+  <text x="200" y="175" text-anchor="middle" fill="#6b6b6b" font-size="12" font-family="sans-serif">Captcha Recognition · CNN</text>
+</svg>

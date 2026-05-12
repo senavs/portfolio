@@ -34,31 +34,35 @@
   "projects": [
     {
       "id": 1,
-      "title": "TaskFlow",
-      "description": "Sistema de gerenciamento de tarefas com arrastar e soltar, colaboração em tempo real e layout responsivo.",
-      "tags": ["React", "Node.js", "WebSocket"],
-      "liveUrl": "#"
+      "title": "Plagiarism Detection",
+      "description": "Classificador binário de texto que detecta plágio usando engenharia de features com NLP e um modelo Scikit-learn implantado no AWS SageMaker.",
+      "tags": ["Python", "Scikit-learn", "AWS SageMaker", "NLP"],
+      "liveUrl": "https://github.com/senavs/plagiarism-detection-project",
+      "imageUrl": "/portfolio/projects/plagiarism.svg"
     },
     {
       "id": 2,
-      "title": "DataPulse",
-      "description": "Dashboard de analytics em tempo real para monitoramento de métricas de sistemas distribuídos e alertas.",
-      "tags": ["TypeScript", "Go", "PostgreSQL"],
-      "liveUrl": "#"
+      "title": "GooApple",
+      "description": "Scraper em Python que extrai e exporta avaliações de apps do Google Play e da Apple Store usando Selenium.",
+      "tags": ["Python", "Selenium", "Web Scraping"],
+      "liveUrl": "https://github.com/senavs/GooApple",
+      "imageUrl": "/portfolio/projects/gooapple.svg"
     },
     {
       "id": 3,
-      "title": "ShipKit",
-      "description": "Toolkit de CLI para automatizar scaffolding de microsserviços, pipelines de CI/CD e deploys em nuvem.",
-      "tags": ["Python", "Docker", "AWS"],
-      "liveUrl": "#"
+      "title": "essayb.com.br",
+      "description": "Plataforma de blog pública full-stack com frontend em React e backend em Python, com suporte a publicação de conteúdo rico.",
+      "tags": ["React", "TypeScript", "Python", "Docker", "Nginx"],
+      "liveUrl": "https://github.com/senavs/essayb.com.br",
+      "imageUrl": "/portfolio/projects/essayb.svg"
     },
     {
       "id": 4,
-      "title": "Vaultex",
-      "description": "API de gerenciamento seguro de segredos com controle de acesso baseado em papéis e auditoria de logs.",
-      "tags": ["Java", "Spring Boot", "Redis"],
-      "liveUrl": "#"
+      "title": "Captcha Recognition",
+      "description": "Modelo CNN treinado no dataset Kaggle CAPTCHA v2 para resolver automaticamente CAPTCHAs baseados em imagem.",
+      "tags": ["Python", "TensorFlow", "OpenCV", "Kaggle"],
+      "liveUrl": "https://github.com/senavs/captcha-recognition",
+      "imageUrl": "/portfolio/projects/captcha.svg"
     }
   ],
   "experience": [

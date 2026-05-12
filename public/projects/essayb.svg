@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1a1a1a"/>
+  <!-- "b" stem -->
+  <path d="M148 55 L148 130 Q148 155 170 155 Q192 155 192 133 Q192 112 170 112 L148 112" fill="none" stroke="#e0e0e0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- inner arc -->
+  <path d="M175 95 Q210 95 210 128 Q210 160 178 160" fill="none" stroke="#e0e0e0" stroke-width="14" stroke-linecap="round"/>
+  <!-- middle arc -->
+  <path d="M175 72 Q238 72 238 133 Q238 188 182 193" fill="none" stroke="#e0e0e0" stroke-width="13" stroke-linecap="round"/>
+  <!-- outer arc -->
+  <path d="M175 50 Q265 50 265 133 Q265 210 185 218" fill="none" stroke="#e0e0e0" stroke-width="12" stroke-linecap="round"/>
+  <!-- wordmark -->
+  <text x="200" y="192" text-anchor="middle" fill="#6b6b6b" font-size="13" font-family="sans-serif" letter-spacing="2">essayb.com.br</text>
+</svg>
