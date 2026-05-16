@@ -31,6 +31,12 @@
     "Em 2022 entrei no time de Tecnologia Internacional da <strong>Amazon</strong>, trabalhando na expansão do Amazon Marketplace e do Amazon Flex para novos países. Fui promovido a <strong>SDE II</strong> em 2024 e continuo projetando e entregando sistemas backend escaláveis que alcançam clientes no mundo todo.",
     "Paralelamente à Amazon, também trabalhei na <strong>Verbal</strong>, uma startup de IA para saúde, onde construí infraestrutura cloud-native no Kubernetes, pipelines de IA em Python e um sistema de ingestão de áudio em tempo real em C++ ajudando a automatizar o controle de qualidade em comunicações de saúde. 🚀"
   ],
+  "contact": {
+    "heading": "Entre em Contato",
+    "tagline": "Quer fazer parceria ou trabalhar juntos? Entre em contato e responderei em até 24 horas.",
+    "emailLabel": "senavs.ti@gmail.com",
+    "phoneLabel": "+55 61 99952-2936"
+  },
   "footer": {
     "cta": "Interessado em trabalhar juntos?",
     "ctaPrimary": "Entre em Contato",
