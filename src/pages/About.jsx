@@ -1,7 +1,6 @@
 import { useLang } from '../context/LangContext'
 import useScrollReveal from '../hooks/useScrollReveal'
 import SkillCarousel from '../components/SkillCarousel'
-import MapSection from '../components/MapSection'
 import HistorySection from '../components/HistorySection'
 import AboutExperienceSection from '../components/AboutExperienceSection'
 import Footer from '../components/Footer'
@@ -18,19 +17,17 @@ export default function About() {
     <main>
       <section className="about-hero">
         <div className="container">
-          <h1 className="section-title">{t.about.heading}<span>.</span></h1>
-          <div className="about-bio">
-            <p>{t.about.bio}</p>
+          <div className="about-hero-inner">
+            <div>
+              <h1 className="section-title">{t.about.heading}<span>.</span></h1>
+              <div className="about-bio">
+                <p>{t.about.bio}</p>
+              </div>
+            </div>
+            <SkillCarousel />
           </div>
         </div>
       </section>
-
-      <RevealSection>
-        <div className="about-stack-map">
-          <SkillCarousel />
-          <MapSection />
-        </div>
-      </RevealSection>
 
       <RevealSection><HistorySection /></RevealSection>
       <RevealSection><AboutExperienceSection /></RevealSection>

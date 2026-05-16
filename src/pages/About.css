@@ -1,4 +1,13 @@
-.about-hero { padding: var(--section-pad); padding-bottom: 0; }
+.about-hero { padding: var(--section-pad); }
+
+.about-hero-inner {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.about-hero-inner > * { min-width: 0; }
 
 .about-bio {
   border-left: 3px solid var(--color-text);
@@ -12,24 +21,8 @@
   line-height: 1.8;
 }
 
-/* 3/9 two-column row (out of 12) */
-.about-stack-map {
-  display: grid;
-  grid-template-columns: 3fr 9fr;
-  gap: 40px;
-  align-items: start;
-  padding: 80px 24px;
-  max-width: var(--max-width);
-  margin: 0 auto;
-}
-
-/* prevent grid children from overflowing their columns */
-.about-stack-map > * { min-width: 0; }
-
 @media (max-width: 768px) {
-  .about-stack-map {
+  .about-hero-inner {
     grid-template-columns: 1fr;
-    gap: 40px;
-    padding: 48px 24px;
   }
 }
